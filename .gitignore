@@ -3,3 +3,10 @@
 */.ipynb_checkpoints/
 results/
 test/
+
+# Data folders of datasets
+data/scRNA
+data/go
+data/pathway_files
+
+*.html
