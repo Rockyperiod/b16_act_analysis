@@ -12,6 +12,7 @@ data/pathway_files
 *.html
 
 # Ignore unused scripts
+project_structure.ipynb
 code/ode_model/03_figure3.ipynb
 code/ode_model/04_figure4.ipynb
 code/sc_rna/01_overall_clustering.ipynb
