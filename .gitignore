@@ -10,3 +10,12 @@ data/go
 data/pathway_files
 
 *.html
+
+# Ignore unused scripts
+code/ode_model/03_figure3.ipynb
+code/ode_model/04_figure4.ipynb
+code/sc_rna/01_overall_clustering.ipynb
+code/sc_rna/02_myeloid_clustering.ipynb
+code/sc_rna/03_GSEA.ipynb
+code/sc_rna/03_GSEA-Copy1.ipynb
+code/sc_rna/04_GO_analysis.ipynb
