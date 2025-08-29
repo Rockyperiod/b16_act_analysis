@@ -3,8 +3,6 @@
 We developed ODE-based mathematical models to describe the dynamics of tumor growth and immune response in the context of adoptive cell therapy (ACT) in a B16F10 melanoma mouse model. 
 In parallel, we performed multi-omics analyses to uncover mechanisms of counter-regulatory mechanisms that affect the efficacy of ACT.
 
----
-
 ## Structure
 
 ### Code
@@ -32,8 +30,6 @@ In parallel, we performed multi-omics analyses to uncover mechanisms of counter-
 
 ### Supplementary
 - **supplementary/** : Supplementary analysis notebooks 
-
----
 
 ## Requirements
 This project uses Docker containers for reproducibility. Two separate environments are used depending on the analysis module:
