@@ -6,6 +6,7 @@ test/
 
 # Data folders of datasets
 data/scRNA
+data/microarray/GSE57304_RAW
 data/go
 data/pathway_files
 
