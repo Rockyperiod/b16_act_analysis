@@ -6,7 +6,7 @@ In parallel, we performed multi-omics analyses to uncover mechanisms of counter-
 ## Structure
 
 ### Code
-- `code/ode_model` : 
+- `code/ode` : 
   - `00_data_preprocessing.ipynb` : Data formatting and preprocessing  
   - `01_untreated_model.ipynb` : Modeling tumor and MDSC growth in untreated mice  
   - `02_tst_model.ipynb` : Modeling TST (tumor-specific T cell) therapy  
@@ -27,9 +27,6 @@ In parallel, we performed multi-omics analyses to uncover mechanisms of counter-
 - `data/immune/` : Immune cell counts from B16F10 tumor-bearing mice  
 - `data/microarray/` : Placeholder for microarray dataset ([GSE57304](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE57304); raw data not included)  
 - `data/sc_rna/` : Placeholder for single-cell RNA-seq dataset ([GSE299448](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE299448); raw data not included)  
-
-### Supplementary
-- **supplementary/** : Supplementary analysis notebooks 
 
 ## Requirements
 This project uses Docker containers for reproducibility. Two separate environments are used depending on the analysis module:
