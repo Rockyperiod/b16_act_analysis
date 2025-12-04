@@ -4,6 +4,7 @@
 results/
 test/
 supplementary/
+code/ode_model/
 
 # Data folders of datasets
 data/scRNA
@@ -15,10 +16,3 @@ data/pathway_files
 
 # Ignore unused scripts
 project_structure.ipynb
-code/ode_model/03_figure3.ipynb
-code/ode_model/04_figure4.ipynb
-code/sc_rna/01_overall_clustering.ipynb
-code/sc_rna/02_myeloid_clustering.ipynb
-code/sc_rna/03_GSEA.ipynb
-code/sc_rna/03_GSEA-Copy1.ipynb
-code/sc_rna/04_GO_analysis.ipynb
