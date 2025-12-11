@@ -20,7 +20,7 @@ In parallel, we performed multi-omics analyses to uncover mechanisms of counter-
   - `06_01_overall_clustering.ipynb` : Global clustering of CD45⁺ immune cells  
   - `06_02_myeloid_clustering.ipynb` : Subclustering of myeloid-derived suppressor cells  
   - `06_03_GSEA.ipynb` : Gene set enrichment analysis  
-  - `06_04_GO_analysis.ipynb` : Gene ontology enrichment analysis  
+  - `06_04_GO.ipynb` : Gene ontology enrichment analysis  
 
 ### Data
 - `data/tumor/` : B16F10 tumor volume datasets
