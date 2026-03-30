@@ -9,7 +9,8 @@ In parallel, we performed multi-omics analyses to uncover counter-regulatory mec
 - `code/ode` : 
   - `00_data_preprocessing.ipynb` : Data formatting and preprocessing  
   - `01_untreated_model.ipynb` : Modeling tumor and MDSC growth in untreated mice  
-  - `02_tst_model.ipynb` : Modeling tumor-specific T cell (TST) therapy  
+  - `02_tst_model.ipynb` : Modeling tumor-specific T cell (TST) therapy with parameter optimization
+  - `02S_tst_model_with_optimized_parameters.ipynb` : Simulations and figure generation using optimized parameters from `02_tst_model.ipynb`, with `TIM` terminology replacing the historical label `MDSC`  
   - `03_fractionate_dosing.ipynb` : Simulations of fractionated dosing  
   - `04_adaptive_dosing.ipynb` : Simulations of adaptive dosing strategies  
 
