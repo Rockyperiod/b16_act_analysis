@@ -9,7 +9,7 @@ In parallel, we performed multi-omics analyses to uncover mechanisms of counter-
 - `code/ode` : 
   - `00_data_preprocessing.ipynb` : Data formatting and preprocessing  
   - `01_untreated_model.ipynb` : Modeling tumor and MDSC growth in untreated mice  
-  - `02_tst_model.ipynb` : Modeling TST (tumor-specific T cell) therapy  
+  - `02_tst_model.ipynb` : Modeling tumor-specific T cell (TST) therapy  
   - `03_fractionate_dosing.ipynb` : Simulations of fractionated dosing  
   - `04_adaptive_dosing.ipynb` : Simulations of adaptive dosing strategies  
 
@@ -17,10 +17,12 @@ In parallel, we performed multi-omics analyses to uncover mechanisms of counter-
   - `05_microarray.ipynb` : Time-course analysis of ACT using microarray data
 
 - `code/sc_rna` :
-  - `06_01_overall_clustering.ipynb` : Global clustering of CD45⁺ immune cells  
-  - `06_02_myeloid_clustering.ipynb` : Subclustering of myeloid-derived suppressor cells  
-  - `06_03_GSEA.ipynb` : Gene set enrichment analysis  
-  - `06_04_GO.ipynb` : Gene ontology enrichment analysis  
+  - `06_01_merge.ipynb`: Quality control and data merging
+  - `06_02_preprocessing.ipynb`: Global clustering of CD45⁺ immune cells
+  - `06_03_annotation.ipynb`: Annotation of global clusters
+  - `06_04_GSEA_analysis.ipynb`: Gene set enrichment analysis
+  - `06_05_TIM_subclustering.ipynb`: Subclustering of tumor-infiltrating myeloid cells (TIMs)
+  - `06_06_GO.ipynb`: Gene Ontology enrichment analysis  
 
 ### Data
 - `data/tumor/` : B16F10 tumor volume datasets
@@ -33,4 +35,4 @@ This project uses Docker containers for reproducibility. Two separate environmen
 
 - **ODE modeling(code/ode_model) and microarray analysis(code/microarray)** → ([jupyter/scipy-notebook:python-3.11](https://hub.docker.com/r/jupyter/scipy-notebook))
 
-- **Single-cell RNA-seq analysis(code/sc_rna)** → ([rnakato/shortcake_r:3.1.0](https://hub.docker.com/r/rnakato/shortcake_r))
+- **Single-cell RNA-seq analysis(code/sc_rna)** → ([rnakato/shortcake_r:3.3.0](https://hub.docker.com/r/rnakato/shortcake_r))
