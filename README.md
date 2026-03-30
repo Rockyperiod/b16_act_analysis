@@ -1,7 +1,7 @@
 # b16_act_analysis
 ## Overview
 We developed ODE-based mathematical models to describe the dynamics of tumor growth and immune response in the context of adoptive cell therapy (ACT) in a B16F10 melanoma mouse model. 
-In parallel, we performed multi-omics analyses to uncover mechanisms of counter-regulatory mechanisms that affect the efficacy of ACT.
+In parallel, we performed multi-omics analyses to uncover counter-regulatory mechanisms that affect the efficacy of ACT.
 
 ## Structure
 
