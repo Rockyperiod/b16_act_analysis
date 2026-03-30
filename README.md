@@ -22,7 +22,7 @@ In parallel, we performed multi-omics analyses to uncover mechanisms of counter-
   - `06_03_annotation.ipynb`: Annotation of global clusters
   - `06_04_GSEA_analysis.ipynb`: Gene set enrichment analysis
   - `06_05_TIM_subclustering.ipynb`: Subclustering of tumor-infiltrating myeloid cells (TIMs)
-  - `06_06_GO.ipynb`: Gene Ontology enrichment analysis  
+  - `06_06_GO_analysis.ipynb`: Gene Ontology enrichment analysis  
 
 ### Data
 - `data/tumor/` : B16F10 tumor volume datasets
